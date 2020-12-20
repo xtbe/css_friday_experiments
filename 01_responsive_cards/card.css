@@ -18,3 +18,10 @@ h2 {
     font-weight: 700;
     color: #42465a
 }
+
+.meta-info .author::after {
+    content: "-";
+    margin: 0 0.5rem;
+    color: #bbb;
+
+}
