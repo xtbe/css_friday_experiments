@@ -59,3 +59,10 @@ h2 {
         flex:  0 1 calc(50% - 1rem);
     }
 }
+
+@media (min-width: 992px) {
+
+    article.card {
+        flex:  0 1 calc(33.3% - 1rem);
+    }
+}
