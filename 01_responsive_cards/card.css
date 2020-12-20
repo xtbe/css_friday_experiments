@@ -3,6 +3,7 @@
 }
 
 article.card {
+    position: relative;
     background: white;
     margin-bottom: 2rem;
     box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
@@ -32,4 +33,17 @@ h2 {
 
 .published-date{
     color: var(--color);
+}
+
+.category {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: var(--color);
+    color: white;
+    padding: 0.2rem 1rem;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-radius: 45px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
 }
