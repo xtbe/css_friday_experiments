@@ -1,3 +1,7 @@
+:root {
+    --color: #164EE2;
+}
+
 article.card {
     background: white;
     margin-bottom: 2rem;
@@ -27,5 +31,5 @@ h2 {
 }
 
 .published-date{
-    color: #164EE2;
+    color: var(--color);
 }
