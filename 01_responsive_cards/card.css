@@ -7,3 +7,7 @@ article.card {
 .card-body {
     padding: 1rem;
 }
+
+h2 {
+    text-transform: capitalize;
+}
