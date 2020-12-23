@@ -1,0 +1,44 @@
+.youtube{
+    background: white;
+}
+
+section.videos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 80%;
+}
+
+.youtube-card{
+    flex: 0 1 calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+
+
+/* card body styles */
+
+.youtube-card .card-body{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.youtube-card .channel-avatar{
+    margin-right: 0.5rem;
+}
+
+.youtube-card .channel-avatar img{
+    width:45px;
+    border-radius: 100%;
+}
+
+.youtube-card .card-body h2{
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.youtube-card .channel-info p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 90%;
+}
